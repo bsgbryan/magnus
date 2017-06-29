@@ -1,0 +1,44 @@
+{
+  "name": "magnus",
+  "version": "1.0.0",
+  "description": "A simple little Madul logger",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublishOnly": "gulp prepublish",
+    "prepare": "gulp dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bsgbryan/magnus.git"
+  },
+  "keywords": [
+    "logger",
+    "Madul"
+  ],
+  "author": {
+    "name": "Bryan Maynard",
+    "email": "bsgbryan@gmail.com",
+    "url": "https://bsgbryan.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bsgbryan/magnus/issues"
+  },
+  "homepage": "https://github.com/bsgbryan/magnus#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-coffee": "^2.3.4",
+    "gulp-exclude-gitignore": "^1.1.1",
+    "gulp-hub": "^4.1.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-nsp": "^2.4.2"
+  },
+  "dependencies": {
+    "madul": "^1.1.4"
+  }
+}
